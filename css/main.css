@@ -116,27 +116,24 @@ html {
 
 .avatar img {
   /* Safari 6.0 - 9.0 */
-  filter: sepia(70%) brightness(100%);
+  filter: contrast(100%);
 }
 
 .rond-img {
-  border: 5px solid #fff;
+  border: 2px solid #fff;
   -webkit-transition: .3s ease-in-out !important;
   transition: .3s ease-in-out !important;
   overflow: hidden;
-  transform: scale(0.9);
-  /* Appliquer un léger zoom au survol */
+  transform: scale(0.85);
   -webkit-transition: .3s ease-in-out !important;
-
 }
 
 .rond-img:hover {
-  border: 5px solid #37BC9B;
+  border: 2px solid #37BC9B;
   border-radius: 50%;
   overflow: hidden;
   filter: drop-shadow(0 0 0.75rem #37BC9B) contrast(100%);
   transform: scale(1);
-  /* Appliquer un léger zoom au survol */
   -webkit-transition: .3s ease-in-out !important;
 }
 
