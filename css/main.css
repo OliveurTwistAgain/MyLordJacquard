@@ -117,6 +117,13 @@ html {
 .avatar img {
   /* Safari 6.0 - 9.0 */
   filter: contrast(100%);
+  border-radius:10px 20px 80px 0;
+}
+
+.avatar:hover {
+  border-radius: 50%;
+  -webkit-transition: .3s ease-in-out !important;
+  transition: .3s ease-in-out !important;
 }
 
 .rond-img {
@@ -125,17 +132,15 @@ html {
   transition: .3s ease-in-out !important;
   overflow: hidden;
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out !important;
-  border-radius:10px 20px 80px 0;
 }
 
 .rond-img:hover {
   border: 2px solid #37BC9B;
-  
   overflow: hidden;
   filter: drop-shadow(0 0 0.75rem #37BC9B) contrast(100%);
   transform: scale(0.9);
   -webkit-transition: .3s ease-in-out !important;
+  transition: .3s ease-in-out !important;
   border-radius: 50%;
 }
 
