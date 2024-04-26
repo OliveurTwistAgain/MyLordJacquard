@@ -43,7 +43,8 @@ footer a:not(.nav-link) {
   color: inherit;
   border-bottom: 1px dashed;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 @media (min-width: 48em) {
   .site-title {
